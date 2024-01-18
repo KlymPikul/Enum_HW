@@ -26,6 +26,6 @@ public enum Color {
     }
 
     public String getRGBCode() {
-        return String.format("#%02X%02X%02X", red, green, blue);
+        return String.format("rgb (%d %d %d) ", red, green, blue);
     }
 }

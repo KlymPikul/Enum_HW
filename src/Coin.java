@@ -1,8 +1,8 @@
 public enum Coin {
-    PENNY(5),
-    NICKEL(10),
-    DIME(20),
-    QUARTER(50);
+    PENNY(1),
+    NICKEL(5),
+    DIME(10),
+    QUARTER(25);
 
     private final int value;
 
